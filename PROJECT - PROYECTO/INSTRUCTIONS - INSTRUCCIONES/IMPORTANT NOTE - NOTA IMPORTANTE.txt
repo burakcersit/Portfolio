@@ -1,0 +1,53 @@
+IMPORTANT NOTE - Description English 
+
+* Send emails (https://www.emailjs.com/)
+Follow the steps in the images on how to create an EmailJs account and 
+how to send emails.
+
+* Modify the project
+
+Just add your information in the HTML file and leave the project as it is.
+
+If you are going to modify the project in the CSS file, do it normally.
+
+If you are going to modify the project with the sass files, I recommend watching my video of
+how to use Sass and my configuration for the projects. If you already have knowledge
+from Sass and has its own settings, you can skip the video.
+
+Video Sass
+https://youtu.be/PYm6QkM7bOU
+
+* Images of the project
+
+When inserting different images keep in mind that they must measure the same
+size of the original images (eg: 1200 x 1050, etc).
+
+===================================================================
+
+NOTA IMPORTANTE - Descripción Español
+
+* Enviar correos (https://www.emailjs.com/)
+Siga los pasos de las imágenes de como crear una cuenta de EmailJs y como 
+enviar correos.
+
+* Subir proyecto a internet (https://www.netlify.com/)
+Siga los pasos de las imágenes de como subir tu sitio web a internet.
+
+
+* Modificar el proyecto
+
+Solo agregue su información en el archivo HTML y deje el proyecto como esta.
+
+Si va a modificar el proyecto en el archivo CSS realizelo con total normalidad.
+
+Si va a modificar el proyecto con los archivos sass, recomiendo ver mi video de 
+como usar Sass y mi configuracion para los proyectos. Si ya tiene conocimientos 
+de Sass y tiene su propia configuracion, puede omitir  el video.
+
+Video Sass
+https://youtu.be/PYm6QkM7bOU
+
+* Imágenes del proyecto
+
+Cuando inserte imágenes diferentes tenga en cuenta que deben medir el mismo 
+tamaño de las imágenes originales (Ejm: 1200 x 1050, etc). 

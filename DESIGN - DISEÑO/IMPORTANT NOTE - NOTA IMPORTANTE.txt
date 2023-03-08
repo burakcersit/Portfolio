@@ -1,0 +1,26 @@
+IMPORTANT NOTE - Description English 
+
+* Figma Design
+
+If you want to see and modify the design, go to your figma page and just 
+drag and drop the file, it will be uploaded and you will have it in your 
+figma account.
+
+*Favicon
+
+If you want to create your favicon, do it in any design tool
+(I recommend figma, it's easier) and export it with the size of 32px.
+
+===================================================================
+
+NOTA IMPORTANTE - Descripción Español
+
+* Diseño en Figma
+
+Si desea ver y modificar el diseño, entre a su pagina de figma y solo arrastre 
+y suelte el archivo, se cargara y lo tendra en su cuenta de figma.
+
+* Favicon
+
+Si desea crear su favicon, hagalo en cualquier herramienta de diseño
+(recomiendo figma, es más sencillo) y exportalo con la medida de 32px, etc). 
