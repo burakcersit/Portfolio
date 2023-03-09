@@ -18,7 +18,7 @@
   /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
   --gradient-color: linear-gradient(180deg,
                       hsla(207, 48%, 72%, 0),
-                      hsla(207, 65%, 65%, 1));
+                      rgb(224, 164, 108));
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -264,11 +264,15 @@ body.dark-theme {
   row-gap: .25rem;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-  transition: color .3s;
+  transition: color .5s;
+  
 }
+
 
 .nav__link:hover {
   color: var(--title-color);
+  transform: scale(1.25);
+
 }
 
 .nav__link i {
@@ -287,6 +291,7 @@ body.dark-theme {
 .show-menu {
   bottom: 2rem;
 }
+
 
 /* Active link */
 .active-link {
@@ -330,37 +335,17 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
 }
 
 .home__perfil img {
   width: 150px;
 }
 
-.home__shape-wawes, 
-.home__shape-circle {
-  position: absolute;
-  opacity: .1;
-}
-
-.home__shape-wawes {
-  width: 50px;
-  left: -1.5rem;
-  top: 5rem;
-}
-
-.home__shape-circle {
-  width: 150px;
-  bottom: -2rem;
-  right: -3rem;
-  transform: rotate(15deg);
-  z-index: -1;
-}
 
 .home__social {
   justify-self: center;
   display: flex;
-  column-gap: 1.25rem;
+  column-gap: 3rem;
 }
 
 .home__social-link {
@@ -371,7 +356,9 @@ body.dark-theme {
 
 .home__social-link:hover {
   color: var(--title-color);
+  transform: scale(2);
 }
+
 
 .home__info {
   display: grid;
@@ -383,7 +370,7 @@ body.dark-theme {
   font-size: var(--smaller-font-size);
   font-weight: 400;
   color: var(--text-color-light);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .home__info-description, 
@@ -437,6 +424,7 @@ body.dark-theme {
   text-align: center;
 }
 
+
 .skills__blob {
   width: 80px;
   height: 100px;
@@ -487,10 +475,15 @@ body.dark-theme {
 /*=============== QUALIFICATION ===============*/
 .qualification {
   position: relative;
+  
 }
 
 .qualification__container {
   row-gap: 3.5rem;
+  /*Education part-center-*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .qualification__title {
@@ -770,6 +763,8 @@ body.dark-theme {
 .contact__form {
   display: grid;
 }
+
+
 
 .contact__info {
   row-gap: 2rem;
