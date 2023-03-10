@@ -480,10 +480,7 @@ body.dark-theme {
 
 .qualification__container {
   row-gap: 3.5rem;
-  /*Education part-center-*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .qualification__title {
